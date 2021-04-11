@@ -15,7 +15,7 @@ Membros:
 
     docker build -t sgm/api-gateway -f .\Dockerfile .
 
-    docker run -it -p 8080:8080 sgm/api-gateway
+    docker run -d -p 8080:8080 sgm/api-gateway
     
 
 ## Consulta rotas
